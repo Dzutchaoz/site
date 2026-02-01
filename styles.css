@@ -359,6 +359,56 @@ body::before {
     }
 }
 
+/* Seção de contato */
+.contact-section {
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Source Code Pro', monospace;
+    color: #20c20e;
+    text-align: center;
+}
+
+.contact-line {
+    margin-bottom: 15px;
+    font-size: 16px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+}
+
+.contact-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1a1a1a;
+    color: #20c20e;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid #333;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.contact-link a:hover {
+    background-color: #222;
+    border-color: #20c20e;
+    box-shadow: 0 0 15px rgba(32, 194, 14, 0.3);
+    transform: translateY(-2px);
+}
+
+.contact-link a:active {
+    transform: translateY(0);
+}
+
+.contact-link i {
+    font-size: 18px;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .terminal-body {
