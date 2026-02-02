@@ -1,8 +1,11 @@
 🌐 Dzutchaoz Softwares Co - Terminal Website
-https://img.shields.io/badge/.NET%2520Framework-4.8-512BD4?logo=dotnet
-https://img.shields.io/badge/ASP.NET-Web%2520Forms-5C2D91?logo=asp.net
-https://img.shields.io/badge/license-Proprietary-blue
-https://img.shields.io/badge/status-Production%2520Ready-brightgreen
+[![.NET Framework 4.8](https://img.shields.io/badge/.NET%20Framework-4.8-512BD4?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet-framework/net48)
+
+[![ASP.NET Web Forms](https://img.shields.io/badge/ASP.NET-Web%20Forms-5C2D91?logo=asp.net)](https://dotnet.microsoft.com/apps/aspnet/web-forms)
+
+[![License](https://img.shields.io/badge/license-Proprietary-blue)](#)
+
+[![Status](https://img.shields.io/badge/status-Production%20Ready-brightgreen)](#)
 
 Fábrica de softwares e outsourcing com uma interface inspirada em terminais de linha de comando
 
@@ -36,7 +39,7 @@ powershell
 
 # 1. Clone o repositório
 
-git clone https://github.com/dzutchaoz/site-terminal.git
+git clone https://github.com/dzutchaoz/site.git
 cd site-terminal
 
 # 2. Compile o projeto
@@ -51,21 +54,37 @@ Acesse: http://localhost:8080/Default.aspx
 🏗️ Estrutura do Projeto
 
 site/
+
 ├── 📁 .vscode/ # Configurações do VS Code
+
 ├── 📁 bin/ # Binários compilados
+
 │ ├── Site.dll ✅ Versionado
+
 │ └── Site.pdb ✅ Versionado
+
 ├── 📁 css/ # Estilos
+
 │ └── styles.css # Tema terminal
+
 ├── 📁 js/ # Scripts
+
 │ └── script.js # Animações e lógica
+
 ├── 📁 publish/ # Build para produção
+
 ├── 📄 Default.aspx # Página principal
+
 ├── 📄 Contato.aspx # Formulário de contato
+
 ├── 📄 Site.csproj # Projeto .NET
+
 ├── 📄 Web.config # Configurações
+
 ├── 📄 build.cmd # Script de compilação
+
 ├── 📄 start-iis.cmd # Iniciar servidor
+
 └── 📄 README.md # Este arquivo
 
 🔧 Desenvolvimento
