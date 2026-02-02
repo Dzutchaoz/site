@@ -1,4 +1,5 @@
 🌐 Dzutchaoz Softwares Co - Terminal Website
+
 [![.NET Framework 4.8](https://img.shields.io/badge/.NET%20Framework-4.8-512BD4?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet-framework/net48)
 
 [![ASP.NET Web Forms](https://img.shields.io/badge/ASP.NET-Web%20Forms-5C2D91?logo=asp.net)](https://dotnet.microsoft.com/apps/aspnet/web-forms)
@@ -9,9 +10,10 @@
 
 Fábrica de softwares e outsourcing com uma interface inspirada em terminais de linha de comando
 
-https://via.placeholder.com/800x450/0a0a0a/20c20e?text=Dzutchaoz+Softwares+Co+Terminal+Interface
+https://www.linkedin.com/in/dzutchaoz-softwares-co-1812492a4/
 
 ✨ Características
+
 🎨 Tema Terminal Hacker - Interface inspirada em terminais com efeitos visuais
 
 📧 Formulário de Contato Funcional - Envio de e-mails com validação
@@ -25,7 +27,9 @@ https://via.placeholder.com/800x450/0a0a0a/20c20e?text=Dzutchaoz+Softwares+Co+Te
 🎭 Efeitos Visuais - Texto animado, brilho e cursor piscante
 
 🚀 Começando
+
 Pré-requisitos
+
 Windows 10/11 ou Server 2016+
 
 .NET Framework 4.8 Developer Pack
@@ -129,9 +133,9 @@ O formulário de contato inclui:
 ✅ Proteção contra spam básico
 
 Configuração de E-mail
+
 Edite Web.config para configurar seu servidor SMTP:
 
-xml
 <appSettings>
 <add key="SmtpServer" value="smtp.seuservidor.com" />
 <add key="SmtpPort" value="587" />
@@ -139,9 +143,13 @@ xml
 <add key="SmtpPassword" value="sua_senha" />
 <add key="EmailTo" value="contato@dzutchaoz.com.br" />
 </appSettings>
+
 🎨 Personalização
+
 Cores do Tema Terminal
+
 css
+
 :root {
 --terminal-green: #20c20e; /_ Verde principal _/
 --terminal-green-light: #4cd137; /_ Verde claro _/
@@ -149,7 +157,9 @@ css
 --terminal-bg: #0a0a0a; /_ Fundo preto _/
 --terminal-text: #20c20e; /_ Texto verde _/
 }
+
 Efeitos Disponíveis
+
 Digitação Animada - Texto aparece caractere por caractere
 
 Brilho Neon - Efeito glow em links e texto importante
@@ -159,13 +169,21 @@ Cursor Piscante - Cursor estilo terminal
 Scanlines - Efeito de monitor CRT (opcional)
 
 🐛 Solução de Problemas
+
 Erros Comuns
+
 Problema Solução
+
 "Could not load type 'Site.Default'" Recompile com .\build.cmd e reinicie IIS
+
 Erro de certificado SMTP Configure ValidationSettings:UnobtrusiveValidationMode ou instale certificado
+
 Acentos mal renderizados Verifique encoding UTF-8 no Web.config
+
 Formulário não envia Confira configurações SMTP no Web.config
+
 Comandos de Depuração
+
 powershell
 
 # Verificar compilação
@@ -214,10 +232,13 @@ Copyright © 2024 Dzutchaoz Softwares Co. Todos os direitos reservados.
 Este software é de propriedade da Dzutchaoz Softwares Co e não pode ser redistribuído, modificado ou comercializado sem autorização expressa.
 
 📞 Contato
+
 Dzutchaoz Softwares Co
+
 📧 contato@dzutchaoz.com.br
+
 🌐 https://dzutchaoz.com.br
 
 "Transformando linhas de código em soluções de negócio" 🚀
 
-Última atualização: $(Get-Date -Format 'dd/MM/yyyy')
+Última atualização: 02/02/2026
