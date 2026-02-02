@@ -49,8 +49,8 @@ cd site-terminal
 Acesse: http://localhost:8080/Default.aspx
 
 🏗️ Estrutura do Projeto
-text
-site-terminal/
+
+site/
 ├── 📁 .vscode/ # Configurações do VS Code
 ├── 📁 bin/ # Binários compilados
 │ ├── Site.dll ✅ Versionado
@@ -67,6 +67,7 @@ site-terminal/
 ├── 📄 build.cmd # Script de compilação
 ├── 📄 start-iis.cmd # Iniciar servidor
 └── 📄 README.md # Este arquivo
+
 🔧 Desenvolvimento
 Compilação
 powershell
