@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch IIS Express",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build Debug",
+            "program": "C:\\Program Files\\IIS Express\\iisexpress.exe",
+            "args": [
+                "/path:${workspaceFolder}",
+                "/port:8080"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        {
+            "name": ".NET Framework Attach",
+            "type": "clr",
+            "request": "attach",
+            "processName": "iisexpress"
+        }
+    ]
+}

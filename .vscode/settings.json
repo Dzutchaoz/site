@@ -1,0 +1,27 @@
+{
+    "dotnet.defaultSolution": "Site.sln",
+    "dotnet.disablePrompt": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "omnisharp.enableEditorConfigSupport": true,
+    "omnisharp.useModernNet": false,
+    "omnisharp.msbuildDotnetPath": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319",
+    "omnisharp.sdkAutoDetection": false,
+    "omnisharp.useGlobalMono": "never",
+    "omnisharp.monoPath": "C:\\Program Files\\Mono\\bin",
+    "csharp.suppressDotnetInstallWarning": true,    
+    "csharp.suppressDotnetRestoreNotification": true,
+    "files.associations": {
+        "*.aspx": "html",
+        "*.csproj": "xml"
+    },
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true,
+        "**/.vs": true
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    }
+}
