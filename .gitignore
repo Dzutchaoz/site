@@ -7,7 +7,7 @@
 *.userosscache
 *.sln.docstates
 
-# Build results
+# Pastas de build (IGNORA TUDO)
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -15,9 +15,16 @@
 x64/
 x86/
 bld/
-[Bb]in/
 [Oo]bj/
 [Ll]og/
+
+# Pasta bin (IGNORA TUDO)
+[Bb]in/
+
+# EXCEÇÕES para arquivos específicos em bin/
+![Bb]in/Site.dll
+![Bb]in/Site.pdb
+
 
 # Visual Studio 2015 cache/options directory
 .vs/
